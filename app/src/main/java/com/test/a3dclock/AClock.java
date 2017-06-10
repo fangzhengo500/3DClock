@@ -114,7 +114,6 @@ public class AClock extends View {
 
     }
 
-
     @Override
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();

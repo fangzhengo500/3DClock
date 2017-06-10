@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">3DClock</string>
+    <string name="clock_view">纯CameraView</string>
+    <string name="roate_test">旋转测试</string>
+    <string name="clock_view_3d">3D ClockView</string>
+    <string name="touch_roate">触摸旋转</string>
 </resources>

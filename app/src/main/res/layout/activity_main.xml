@@ -7,20 +7,35 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="com.test.a3dclock.MainActivity">
+    tools:context="com.test.a3dclock.activity.MainActivity">
 
-    <com.test.a3dclock.AClock
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:background="#000"/>
-
-    <com.test.a3dclock.ClockView
-        android:layout_width="200dp"
-        android:layout_height="200dp"/>
-
-    <com.test.a3dclock.test.TouchView
+    <Button
+        android:id="@+id/btnClockView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#ff0"
-        android:src="@mipmap/ic_launcher"/>
+        android:layout_height="wrap_content"
+        android:text="@string/clock_view"
+        android:textAllCaps="false"/>
+
+
+    <Button
+        android:id="@+id/btnRoateTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/roate_test"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnRoate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/touch_roate"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn3DClock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clock_view_3d"
+        android:textAllCaps="false"/>
+
 </LinearLayout>
